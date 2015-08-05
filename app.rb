@@ -6,3 +6,7 @@ also_reload('lib/**/*.rb')
 get('/') do
   erb(:index)
 end
+
+get('/title') do
+  erb(:title)
+end
