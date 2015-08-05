@@ -1,6 +1,6 @@
 require('rspec')
 require('title_case')
-require('titleize')
+# require('titleize')
 
 describe('String#title_case') do
   it("capitalizes the first letter of a word") do
@@ -30,7 +30,7 @@ describe('String#title_case') do
   it("manages mixed case entries") do
     expect(("BeoWulf aNd mE").title_case()).to(eq("Beowulf and Me"))
   end
-  # 
+  #
   # it("manages unique case entries") do
   #   expect(("here's to beowulf and McDuff and O'Malley").title_case()).to(eq("Here's to Beowulf and McDuff and O'Malley"))
   # end
